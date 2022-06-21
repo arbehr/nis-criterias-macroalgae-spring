@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch MacroalgaeSpringApplication",
+            "request": "launch",
+            "mainClass": "com.arbehr.MacroalgaeSpringApplication",
+            "projectName": "macroalgae-spring"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MacroalgaeSpringApplication<macroalgae-spring>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.arbehr.macroalgaespring.MacroalgaeSpringApplication",
+            "projectName": "macroalgae-spring",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
