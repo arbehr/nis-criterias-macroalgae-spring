@@ -7,8 +7,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 @Data
 @Entity
@@ -34,7 +32,7 @@ public class Macroalgae {
     private String distribution;
 
     @Column(length = 200, nullable = false)
-    private String impact;
+    private String economic_ecological_impact;
 
     @Column(length = 200, nullable = false)
     private String origin;

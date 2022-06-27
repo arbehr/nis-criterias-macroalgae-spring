@@ -1,12 +1,7 @@
 package com.arbehr;
 
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-
-import com.arbehr.model.Macroalgae;
-import com.arbehr.repository.MacroalgaeRepository;
 
 
 @SpringBootApplication
@@ -16,7 +11,7 @@ public class MacroalgaeSpringApplication {
 		SpringApplication.run(MacroalgaeSpringApplication.class, args);
 	}
 
-	@Bean
+	/*@Bean
 	CommandLineRunner initDatabase(MacroalgaeRepository macroalgaeRepository) {
 		return args -> {
 			macroalgaeRepository.deleteAll();
@@ -26,7 +21,7 @@ public class MacroalgaeSpringApplication {
       		m.setCriteria_inv_other("");
 			m.setCriteria_inv_spread("");
 			m.setDistribution("");
-			m.setImpact("");
+			m.setEconomic_ecological_impact("");
 			m.setOrigin("");
 			m.setOrigin_typeLoc("1.1");
 			m.setReports("");
@@ -35,5 +30,5 @@ public class MacroalgaeSpringApplication {
 			m.setStatus("NIS");
 			macroalgaeRepository.save(m);
 		};
-	}
+	}*/
 }
